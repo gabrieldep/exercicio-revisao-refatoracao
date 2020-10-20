@@ -3,9 +3,8 @@
 
 class Vendedor : public Empregado {
 
-  public:
-	double Vendedor::quotaTotalAnual() {
-	  return quotaMensalVendas * 12;
+  	double Vendedor::quotaTotalAnual() {
+		return quotaMensalVendas * 12;
 	}	
 };
 

@@ -3,9 +3,12 @@
 
 class Engenheiro : public Empregado {
 
-  public:
-    std::string nome;  
-	int projetos;
-	
+  void Engenheiro::setProjetos(int i){
+    projetos = i;
+  }
+
+  int Engenheiro::getProjetos(){
+    return projetos;
+  }
 };
 
