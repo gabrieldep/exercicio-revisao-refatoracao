@@ -24,11 +24,19 @@ class Empregado {
         quotaMensalVendas = quotaMensal;
     }
 
+    void Empregado::setNome(std::string nomeP){
+        nome = nomeP;
+    }
+
     double Empregado::getSalarioHora(){
         return salarioHora;
     }
 
     double Empregado::getQuotaMensalVendas(){
         return quotaMensalVendas;
+    }
+
+    std::string Empregado::getNome(){
+        return nome;
     }
 }
